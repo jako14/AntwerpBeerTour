@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AntwerpBeerTour</string>
+    <string name="action_settings">Settings</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Register">Sign in</string>
+    <string name="emailHint">E-mail</string>
+    <string name="passwordHint">Password</string>
+    <string name="PlayGame">Play Game</string>
+    <string name="Score">Scoreboard</string>
+    <string name="Info">Information</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Google">Google+</string>
+    <string name="Highscore">Highscore</string>
+    <string name="InfoContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit ligula tortor, nec aliquet tortor consequat ut. Praesent augue massa, commodo nec metus sed, porttitor efficitur tellus. Donec volutpat semper purus, quis hendrerit neque luctus sit amet. Aliquam dictum nunc eget consectetur pretium. Pellentesque volutpat nisl eu lorem consequat, id efficitur lectus faucibus. Curabitur accumsan vitae est ut feugiat. Aliquam lobortis elit a felis hendrerit tempor sit amet quis nibh.</string>
+</resources>

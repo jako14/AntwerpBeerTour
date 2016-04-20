@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="@string/PlayGame"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="32sp"
+        android:id="@+id/buttonPlay"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/button_registration"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="@string/Score"
+        android:textSize="32sp"
+        android:background="@drawable/button_registration"
+        android:id="@+id/buttonScore"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/buttonPlay"
+        android:layout_alignLeft="@+id/buttonPlay"
+        android:layout_alignStart="@+id/buttonPlay" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="@string/Info"
+        android:textSize="32sp"
+        android:background="@drawable/button_registration"
+        android:id="@+id/buttonInfo"
+        android:layout_below="@id/buttonScore"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

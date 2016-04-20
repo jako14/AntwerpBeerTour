@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Highscore"
+        android:id="@+id/textViewHighscore"
+        android:textSize="62sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1."
+        android:textSize="32sp"
+        android:id="@+id/textViewOne"
+        android:layout_below="@+id/textViewHighscore"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Alina"
+        android:textSize="32sp"
+        android:id="@+id/textViewAlina"
+        android:layout_below="@+id/textViewHighscore"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignLeft="@+id/textViewOne"
+        android:layout_alignStart="@+id/textViewOne"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4/5"
+        android:textSize="32sp"
+        android:id="@+id/textViewScoreFirst"
+        android:layout_below="@+id/textViewHighscore"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/textViewAlina"
+       />
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2."
+        android:textSize="32sp"
+        android:id="@+id/textViewTwo"
+        android:layout_below="@+id/textViewOne"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Paul"
+        android:textSize="32sp"
+        android:id="@+id/textViewPaul"
+        android:layout_below="@+id/textViewAlina"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignLeft="@+id/textViewOne"
+        android:layout_alignStart="@+id/textViewOne"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3/5"
+        android:textSize="32sp"
+        android:id="@+id/textViewScoreSecond"
+        android:layout_below="@+id/textViewScoreFirst"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/textViewAlina"
+        />
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3."
+        android:textSize="32sp"
+        android:id="@+id/textViewThree"
+        android:layout_below="@+id/textViewTwo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Camilla"
+        android:textSize="32sp"
+        android:id="@+id/textViewCamila"
+        android:layout_below="@+id/textViewPaul"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignLeft="@+id/textViewOne"
+        android:layout_alignStart="@+id/textViewOne"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2/5"
+        android:textSize="32sp"
+        android:id="@+id/textViewScoreThird"
+        android:layout_below="@+id/textViewScoreSecond"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/textViewAlina"
+        />
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4."
+        android:textSize="32sp"
+        android:id="@+id/textViewFour"
+        android:layout_below="@+id/textViewThree"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Stijn"
+        android:textSize="32sp"
+        android:id="@+id/textViewStijn"
+        android:layout_below="@+id/textViewCamila"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignLeft="@+id/textViewOne"
+        android:layout_alignStart="@+id/textViewOne"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1/5"
+        android:textSize="32sp"
+        android:id="@+id/textViewScoreFourth"
+        android:layout_below="@+id/textViewScoreThird"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/textViewAlina"
+        />
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="5."
+        android:textSize="32sp"
+        android:id="@+id/textViewFive"
+        android:layout_below="@+id/textViewFour"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Jakub"
+        android:textSize="32sp"
+        android:id="@+id/textViewJacob"
+        android:layout_below="@+id/textViewStijn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignLeft="@+id/textViewOne"
+        android:layout_alignStart="@+id/textViewOne"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1/5"
+        android:textSize="32sp"
+        android:id="@+id/textViewScoreFifth"
+        android:layout_below="@+id/textViewScoreFourth"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/textViewAlina"
+        />
+
+</RelativeLayout>
