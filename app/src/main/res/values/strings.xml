@@ -11,5 +11,6 @@
     <string name="Twitter">Twitter</string>
     <string name="Google">Google+</string>
     <string name="Highscore">Highscore</string>
+    <string name="title_activity_maps">Map</string>
     <string name="InfoContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit ligula tortor, nec aliquet tortor consequat ut. Praesent augue massa, commodo nec metus sed, porttitor efficitur tellus. Donec volutpat semper purus, quis hendrerit neque luctus sit amet. Aliquam dictum nunc eget consectetur pretium. Pellentesque volutpat nisl eu lorem consequat, id efficitur lectus faucibus. Curabitur accumsan vitae est ut feugiat. Aliquam lobortis elit a felis hendrerit tempor sit amet quis nibh.</string>
 </resources>

@@ -13,6 +13,7 @@ public class MenuActivity extends Activity {
 
     private Button btnScoreboard;
     private Button btnInformation;
+    private Button btnPlayGame;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,18 @@ public class MenuActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this,InformationActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btnPlayGame = (Button)findViewById(R.id.buttonPlay);
+
+
+        btnPlayGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this,MapActivity.class);
                 startActivity(intent);
 
             }
