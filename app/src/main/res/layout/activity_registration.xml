@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back_frame"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/header"
+        />
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonLogo"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="30dp"
+        />
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/lang"
+        android:id="@+id/buttonLanguage"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="250dp"
+        android:textColor="@color/white"
         android:layout_height="70dp"
         android:text="@string/Register"
         android:id="@+id/buttonSignIn"
@@ -17,6 +44,7 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:inputType="textEmailAddress"
+        android:textColor="@color/white"
         android:ems="10"
         android:id="@+id/emailet"
         android:hint="@string/emailHint"
@@ -28,6 +56,7 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:inputType="textPassword"
+        android:textColor="@color/white"
         android:ems="10"
         android:hint="@string/passwordHint"
         android:id="@+id/editText2"

@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back_frame"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/header"
+        />
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonLogo"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="30dp"
+        />
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/lang"
+        android:id="@+id/buttonLanguage"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -8,15 +34,17 @@
         android:text="@string/Highscore"
         android:id="@+id/textViewHighscore"
         android:textSize="62sp"
+        android:textColor="@color/white"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="60dp" />
 
     <TextView
         android:layout_width="35dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="1."
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewOne"
         android:layout_below="@+id/textViewHighscore"
@@ -29,6 +57,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Alina"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewAlina"
         android:layout_below="@+id/textViewHighscore"
@@ -42,6 +71,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="4/5"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewScoreFirst"
         android:layout_below="@+id/textViewHighscore"
@@ -52,6 +82,7 @@
 
     <TextView
         android:layout_width="35dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="2."
@@ -65,6 +96,7 @@
 
     <TextView
         android:layout_width="200dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Paul"
@@ -81,6 +113,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="3/5"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewScoreSecond"
         android:layout_below="@+id/textViewScoreFirst"
@@ -94,6 +127,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="3."
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewThree"
         android:layout_below="@+id/textViewTwo"
@@ -107,6 +141,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Camilla"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewCamila"
         android:layout_below="@+id/textViewPaul"
@@ -121,6 +156,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="2/5"
         android:textSize="32sp"
+        android:textColor="@color/white"
         android:id="@+id/textViewScoreThird"
         android:layout_below="@+id/textViewScoreSecond"
         android:layout_marginTop="20dp"
@@ -133,6 +169,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="4."
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewFour"
         android:layout_below="@+id/textViewThree"
@@ -146,6 +183,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Stijn"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewStijn"
         android:layout_below="@+id/textViewCamila"
@@ -159,6 +197,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="1/5"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewScoreFourth"
         android:layout_below="@+id/textViewScoreThird"
@@ -172,6 +211,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="5."
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewFive"
         android:layout_below="@+id/textViewFour"
@@ -185,6 +225,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Jakub"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewJacob"
         android:layout_below="@+id/textViewStijn"
@@ -197,6 +238,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="1/5"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:id="@+id/textViewScoreFifth"
         android:layout_below="@+id/textViewScoreFourth"

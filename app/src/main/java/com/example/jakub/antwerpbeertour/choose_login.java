@@ -1,6 +1,7 @@
 package com.example.jakub.antwerpbeertour;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class choose_login extends AppCompatActivity {
 
@@ -17,6 +19,10 @@ public class choose_login extends AppCompatActivity {
     private Button btnFacebook;
     private Button btnTwitter;
     private  Button btnGoogle;
+    private ImageButton btnLanguage;
+    private ImageButton btnLogo;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +34,13 @@ public class choose_login extends AppCompatActivity {
         btnRegistration.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(choose_login.this,RegisterActivity.class);
+                Intent intent = new Intent(choose_login.this, RegisterActivity.class);
                 startActivity(intent);
 
             }
         });
+
+
 
         btnFacebook = (Button)findViewById(R.id.buttonFacebook);
 
@@ -67,6 +75,37 @@ public class choose_login extends AppCompatActivity {
 
             }
         });
+
+        btnLanguage = (ImageButton)findViewById(R.id.buttonLanguage);
+
+        btnLanguage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(choose_login.this,LanguageActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btnLogo = (ImageButton)findViewById(R.id.buttonLogo);
+
+        btnLogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(choose_login.this,MenuActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        String fontPath = "fonts/coolvetica rg.ttf";
+
+        Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
+        btnRegistration.setTypeface(tf);
+        btnTwitter.setTypeface(tf);
+        btnFacebook.setTypeface(tf);
+        btnGoogle.setTypeface(tf);
 
 
 

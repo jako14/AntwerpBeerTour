@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="@drawable/back_frame"
     >
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:id="@+id/headerView"
         android:background="@drawable/header"
         />
     <ImageButton
@@ -31,55 +29,52 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="English"
+        android:background="@drawable/button_registration"
+        android:id="@+id/buttonEnglish"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/headerView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp" />
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:text="@string/Facebook"
-        android:id="@+id/buttonFacebook"
         android:textColor="@color/white"
-        android:textSize="32sp"
-        android:background="@drawable/button_facebook"
-        android:layout_below="@+id/buttonGoogle"
-        android:layout_alignLeft="@+id/buttonRegistration"
-        android:layout_alignStart="@+id/buttonRegistration"
+        android:background="@drawable/button_registration"
+        android:text="French"
+        android:textSize="36sp"
+        android:id="@+id/buttonFrench"
+        android:layout_below="@+id/buttonEnglish"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Dutch"
+        android:textColor="@color/white"
+        android:background="@drawable/button_registration"
+        android:id="@+id/buttonDutch"
+        android:textSize="36sp"
+        android:layout_below="@+id/buttonFrench"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
 
     <Button
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:text="@string/Register"
+        android:text="Chinese"
+        android:textSize="36sp"
         android:textColor="@color/white"
         android:background="@drawable/button_registration"
-        android:id="@+id/buttonRegistration"
-        android:textSize="32sp"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/buttonFacebook"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:textSize="32sp"
-        android:text="@string/Twitter"
-        android:background="@drawable/button_twitter"
-        android:textColor="@color/white"
-        android:id="@+id/buttonTwitter"
-        android:layout_alignParentTop="true"
+        android:id="@+id/buttonChinese"
+        android:layout_below="@+id/buttonDutch"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="107dp" />
-
-    <Button
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:textSize="32sp"
-        android:text="@string/Google"
-        android:id="@+id/buttonGoogle"
-        android:textColor="@color/white"
-        android:background="@drawable/button_google"
-        android:layout_below="@+id/buttonTwitter"
-        android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_marginTop="30dp" />
 
 </RelativeLayout>

@@ -4,6 +4,7 @@
 
 
 
+
     <Button
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -23,4 +24,40 @@
         android:background="@drawable/map"
         android:id="@+id/back"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textColor="@color/white"
+        android:background="@drawable/button_registration"
+        android:id="@+id/buttonScanner"
+        android:layout_below="@+id/headerView"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/headerView"
+        android:background="@drawable/header"
+        />
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonLogo"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="30dp"
+        />
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/lang"
+        android:id="@+id/buttonLanguage"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
